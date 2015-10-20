@@ -1,0 +1,31 @@
+{
+  "name": "mongo_to_sql",
+  "version": "0.1.0",
+  "description": "A library to allow real-time mirroring of mongodb to pgsql (one way only)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gradecam/mongo_to_sql.git"
+  },
+  "keywords": [
+    "mongo",
+    "postgres",
+    "sql"
+  ],
+  "author": "Richard Bateman <rbateman@gradecam.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gradecam/mongo_to_sql/issues"
+  },
+  "homepage": "https://github.com/gradecam/mongo_to_sql#readme",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "co": "^4.6.0",
+    "mongodb": "^2.0.46",
+    "pg": "^4.4.3",
+    "pg-native": "^1.9.0"
+  }
+}
